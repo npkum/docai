@@ -1,0 +1,22 @@
+#version 0.4- added requests for sync to github
+streamlit>=1.26
+chromadb>=0.3.28
+sentence-transformers>=2.2.2
+numpy>=1.24
+pandas
+PyMuPDF
+pdf2image
+pytesseract
+camelot-py[cv]
+pypdf>=3.0.0
+sqlalchemy
+transformers>=4.30.0
+torch>=1.12.0  # optional if using HF LLM locally; CPU compatible build recommended
+torchvision 
+torchaudio
+sentence-transformers
+langgraph>=0.1.0rc1  # optional; app works without it
+#serpapi  # optional for web search
+rouge-score
+nltk
+requests
